@@ -1,0 +1,69 @@
+print("This is a Simple Calculator")
+print("Designed by Sololearn")
+print("Refixed by DayCrawller")
+while True:
+    print("Options:")
+    print("Choose Symbol you'll like to perform operation on")
+    print("Enter '+' to add two numbers")
+    print("Enter '-' to subtract two numbers")
+    print("Enter '*' to multiply two numbers")
+    print("Enter '/' to divide two numbers")
+    print("Enter '%' to get modulo of two numbers")
+    print("Enter '//' to get floor division of two numbers")
+    print("Enter 'Exit' to close the program")
+    user_input = input(":-  ")
+
+    if user_input == "Exit":
+        break
+
+    elif user_input == "+":
+        print("For Addition of Numbers")
+        print("Please Enter your numbers")
+        first_num = float(input("Enter Your First Digit:  "))
+        second_num = float(input("Enter Your Second Digit:  "))
+        answer = str(first_num + second_num)
+        print("Answer =:  " + answer)
+
+    elif user_input == "-":
+        print("For Subtraction of Numbers")
+        print("Please Enter your numbers")
+        first_num = float(input("Enter Your First Digit:  "))
+        second_num = float(input("Enter Your Second Digit:  "))
+        answer = str(first_num - second_num)
+        print("Answer =:  " + answer)
+
+    elif user_input == "*":
+        print("For Multiplication of Numbers")
+        print("Please Enter your numbers")
+        first_num = float(input("Enter Your First Digit:  "))
+        second_num = float(input("Enter Your Second Digit:  "))
+        answer = str(first_num * second_num)
+        print("Answer =:  " + answer)
+
+    elif user_input == "/":
+        print("For Division of Numbers")
+        print("Please Enter your numbers")
+        first_num = float(input("Enter Your First Digit:  "))
+        second_num = float(input("Enter Your Second Digit:  "))
+        answer = str(first_num / second_num)
+        print("Answer =:  " + answer)
+
+    elif user_input == "%":
+        print("For Modulo of Numbers")
+        print("Please Enter your numbers")
+        first_num = float(input("Enter Your First Digit:  "))
+        second_num = float(input("Enter Your Second Digit:  "))
+        answer = str(first_num % second_num)
+        print("Answer =:  " + answer)
+
+    elif user_input == "//":
+        print("For Floor Division of Numbers")
+        print("Please Enter your numbers")
+        first_num = float(input("Enter Your First Digit:  "))
+        second_num = float(input("Enter Your Second Digit:  "))
+        answer = str(first_num // second_num)
+        print("Answer =:  " + answer)
+    else:
+        print("Out of Bounds")
+        
+    
